@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            width: 400px;
+            height: 400px;
+            background-color: #293462;
+        }
+        .face{
+            position: relative;
+            width: 200px;
+            height: 150px;
+            border-radius: 80px;
+            background: radial-gradient(circle at 95px -100px, #fe5f55 200px, #A64942 0px);
+            left: 95px;
+            top: 100px;
+
+           
+        }
+        .circle1{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 200px;
+            background-color: #fe5f55;
+            bottom:128px;
+            left: 27px;
+
+        }
+        .circle2{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 200px;
+            background-color: #fe5f55;
+            bottom: 129px;
+            left: 120px;
+        }
+        .leftEye{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background-color: #1c302f;
+            bottom: 136px;
+            left:37px;
+            border: 10px solid;
+            border-color: #fbffd3;
+            z-index: 3;
+
+        }
+    
+        .rightEye{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background-color: #1c302f;
+            bottom: 138px;
+            left:130px;
+            border: 10px solid;
+            border-color: #fbffd3;
+            z-index: 3;
+        }
+        .nose1{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background-color: #1c302f;
+            top: 80px;
+            left: 79px;
+        }
+        .nose2{
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background-color: #1c302f;
+            top: 80px;
+            left: 108px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="face">
+    <div class="leftEye eye"></div>
+    <div class="rightEye eye"></div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="nose1"></div>
+    <div class="nose2"></div>
+    <div class="bottom"></div>
+    </div>
+    </div>
+</body>
+</html>

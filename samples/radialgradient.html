@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .radial{
+            background-color: coral;
+            position: relative;
+            width: 400px;
+            height: 400px;
+
+        }
+        .p1{
+            position: absolute;
+            background-color: bisque;
+            width: 200px;
+            height: 200px;
+            border-radius: 150px 150px 150px 150px;
+            background: radial-gradient(circle at 100px -30px, bisque 200px, brown 200px);
+
+    
+        }
+        .ps{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            background: radial-gradient(white 0% 33%, rgb(237, 173, 237) 33% 66%, brown 66% 100%);
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="radial">
+        <div class="p1"></div>
+        <div class="ps"></div>
+        <div class="p2"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head>
+<body>
+<h2>1. Class Selectors</h2>
+<p>It is represents by the symbol dot[.]. First need to put dot[.] then class name.</p>
+<xmp>
+<div class="first"> </div>
+</xmp>
+<p><b>Example:</b> .first{styles}</p><hr>
+
+<h2>2. ID selectors</h2>
+<p>It is represents by the symbol hashtag[#]. First need to put hashtag[#] then id name.</p>
+<xmp>
+<div id="firstid"> </div>
+</xmp>
+<p><b>Example:</b> #firstid{styles}</p><hr>
+
+<h2>3. Universal selectors</h2>
+<p>It is represents by the symbol star[]. First need to put star[] then style it. It allows yoy to select and style all elements. It is a css reset.</p> 
+<p>Example: *{styles}</p><hr>
+
+<h2>3. Attribute selectors</h2>
+<p>It allows you to target elements based on their specific attribute.</p>
+<xmp>
+<input type="text" id="fname" name="fname" placeholer="firstname">
+</xmp>
+<p><b>Example:</b> input[name="fname"]{styles}</p><hr>
+
+<h2>4.Nested selectors</h2>
+<p>It allows you to nest one style rule inside another.</p>
+<xmp>
+    <body>
+
+        <p>
+            This is a
+            <a href="https://ide.geeksforgeeks.org/">link</a>
+            within a paragraph element.
+        </p>
+    
+        <table style="width: 100%">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+</xmp>
+<p><b>Example:</b>
+    p a {
+        color: green;
+    }
+
+    table tr th {
+        background-color: beige;
+    }
+</p><hr>
+
+<h2>5.Grouping selectors</h2>
+<p>We can group them and write like this &amp; we need the comma(,) to group the various selectors.</p>
+<xmp>
+    <body>
+        <h1>GeeksForGeeks</h1>
+        <h2>Smaller heading!</h2>
+    
+        <p>This is
+            <a href="https://ide.geeksforgeeks.org/">
+                anchor tag
+            </a>
+        </p>
+    
+        <p>This is a paragraph.</p>
+    </body>
+</xmp>
+<p><b>Example:</b> h1, h2, p, a {
+    text-align: center;
+    color: green;
+}</p><hr>
+
+<h2>6.combinator selectors</h2>
+<p><em>There are some types of combinator seletors they are:</em></p>
+<ul>
+    <li>Descendant Combinator[space]</li>
+    <li>Adjacent Combinator[+]</li>
+    <li>Child Combinator[&gt;]</li>
+    <li>Sibling Combinator[~]</li>
+</ul>
+<p><u>I.Descendant combinator[space]:</u></p>
+<p>It represents by [space]. It styles everthing within the tag name. For selecting elements that are descendants of other elements. First we need to put tage name then space.</p>
+<xmp>
+    <p>I am the first para</p>
+
+    <div class='container'>
+        <p>I am the second para</p>
+    
+        <div>
+            <p>I am the third para</p>
+        </div>
+    </div>
+    
+    <p>I am the last para</p>
+</xmp>
+<p><b>Example:</b> .container p {
+    color: red;
+  }
+</p>
+<p>The result for the above one will be it changes the color only to <i>I am the second para</i> and <i>I am third para</i></p><hr><hr>
+
+<p><u>II.Adjacent Combinator[+]:</u></p>
+<p>It represents by symbol add[+]. For selecting elements that are immediate siblings after other elements. First we need to put tag name then add[+].</p>
+<xmp>
+    <p>I am the first para</p>
+
+<div class='container'>
+    <p>I am the second para</p>
+
+    <div>
+        <p>I am the third para</p>
+    </div>
+</div>
+
+<p>I am the last para</p>
+<p>I am the very last para</p>
+</xmp>
+<p><b>Example:</b> div + p {
+    color: red;
+  }
+</p>
+<p>The result for the above one will be it changes the color only to <i>I am the last para</i></p><hr><hr>
+
+<p><u>III.Child Combinator[&gt;]:</u></p>
+<p>It represents by symbol Greater[&gt;]. For selecting elements that are direct children of other elements. First we need to put tag name then Greater[&gt;].</p>
+<xmp>
+    <p>I am the first para</p>
+
+<div class='container'>
+    <p>I am the second para</p>
+
+    <div>
+        <p>I am the third para</p>
+    </div>
+</div>
+
+<p>I am the last para</p>
+</xmp>
+<p><b>Example:</b> .container &gt; div &gt; p {
+    color: red;
+  }
+</p>
+<p>The result for the above one will be it changes the color only to <i>I am the third para</i></p><hr><hr>
+
+<p><u>IV.Sibling Combinator[~]:</u></p>
+<p>It represents by symbol tilde[~]. For selecting elements that are siblings after other elements. First we need to put tag name then  tilde [~].</p>
+<xmp>
+    <p>I am the first para</p>
+
+<div class='container'>
+    <p>I am the second para</p>
+
+    <div>
+        <p>I am the third para</p>
+    </div>
+</div>
+
+<p>I am the last para</p>
+<p>I am the very last par</p>
+</xmp>
+<p><b>Example:</b> div ~ p {
+    color: red;
+  }
+  </p>
+<p>The result for the above one will be it changes the color only to <i>I am the last para</i> and <i>I am very last para</i></p><hr>
+
+</body></html>

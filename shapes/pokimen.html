@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 500px;
+            position: relative;
+            background-color: #6cb3a9;
+
+      }
+      .semi{
+           width: 120px;
+           height: 60px;
+           border-radius: 100px 100px 0 0;
+           position: absolute;
+                     
+      }
+      .topsemi{
+         background-color: #d25b70;
+         top: 40px;
+         left: 70px; 
+        
+       }
+       .bottomsemi{
+        background-color: #ffffff;
+        top: 110px;
+        left:70px;
+        rotate: 180deg;
+       }
+       .rec{
+        position: absolute;
+        background-color: #781728;
+        width: 70px;
+        height: 11px;
+        top:99px;
+        left: 95px;
+         }
+         .centercircle{
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            border-radius: 100px;
+            border: 5px solid #781728;
+            background-color: #f6df96;
+            left: 110px;
+            top: 85px;
+            z-index: 3;
+         }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="topsemi semi"></div>
+    <div class="bottomsemi semi"></div>
+    <div class="centercircle"></div>
+    <div class="rec"></div>
+</div>
+
+</body>
+</html>
