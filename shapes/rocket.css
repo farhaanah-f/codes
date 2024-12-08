@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 90vh;
+    background-color: bisque;
+    position: relative;
+
+}
+.rect{
+    height: 300px;
+    width: 400px;
+    background-color:black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    .rocket{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        background-color: palevioletred;
+        clip-path: polygon(50% 0%, 100% 100%, 50% 60%, 0% 100%, 50% 0%);
+        left: -15px;
+        animation: rocket 6s ease-in;
+    }
+}
+    @keyframes rocket {
+        0%{
+            top: 0%;
+            left: 0%;
+            rotate: 90deg;
+    
+        }
+        25%{
+            left:100%;
+            top: 0%;
+            rotate: 180deg;
+        }
+        50%{
+            top: 100%;
+            left: 100%;
+        }
+        75%{
+            top: 100%;
+            left: 0%;
+            rotate: 360deg;
+        }
+        100%{
+            top: 0%;
+            left: 0%;
+            rotate: 360deg;
+        }
+    }

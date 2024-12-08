@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 100vh;
+}
+.video{
+    position: relative;
+    height: 350px;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+.video::after{
+    content: "";
+    background-color:#917f7f6e;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    transition: all 1s;
+}
+.video:hover{
+    &::after{
+        top: 0%;
+        transform:translateY(-100%);
+    }
+}

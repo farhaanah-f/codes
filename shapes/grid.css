@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  background-color: aqua;
+  height: 800px;
+  width: 800px;
+  display: grid;
+  /* grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px; */
+  padding: 20px;
+  margin: auto;
+  color: rgb(16, 221, 122);
+  grid-gap: 10px;
+}
+.sbox {
+  background-color: black;
+  scale: 0.8;
+  transition: all 1s ease;
+}
+.one {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: bisque;
+}
+.two {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: blueviolet;
+}
+.three {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  background-color: blue;
+}
+.four {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: rgb(15, 10, 1);
+}
+
+.five {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  background-color: chocolate;
+}
+.six {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: chartreuse;
+}
+.sbox:hover {
+  background-color: rgb(235, 230, 223);
+  z-index: 2;
+  scale: 1;
+  transition: all 1s ease;
+}
