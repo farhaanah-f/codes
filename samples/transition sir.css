@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .display {
+    height: 80vh;
+    background-color: gray;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* .ball {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: violet;
+    transition: all 2s cubic-bezier(0.02, 1.15, 0.77, 0.19);
+    &:hover {
+      border-radius: 0%;
+      background-color: blueviolet;
+      transition: all 2s cubic-bezier(0.02, 1.15, 0.77, 0.19);
+    }
+  } */
+  
+  .ball {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: violet;
+    position: absolute;
+  
+    animation: none;
+  }
+  
+  .ani {
+    animation: bounceEffect 2s infinite
+      cubic-bezier(0.54, 0.53, 0.53, 0.53);
+  }
+  
+  /* // plot 1 top 0, left 0
+  // bottom 0 , :left 25% 
+  top 0 , left 50%
+  bottom 0,left 75%
+  top: 0;
+    left: 100%;
+  
+  */
+  
+  @keyframes bounceEffect {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      bottom: 0;
+      top: 100%;
+      left: 25%;
+      height: 120px;
+      background-color: yellow;
+    }
+    50% {
+      top: 0;
+      bottom: 100%;
+      left: 50%;
+      height: 150px;
+      background-color: red;
+    }
+    75% {
+      bottom: 0;
+      top: 100%;
+      left: 75%;
+      background-color: orange;
+    }
+    
+    100% {
+      top: 0;
+      bottom: 100%;
+      left: 100%;
+      background-color: pink;
+    }
+}

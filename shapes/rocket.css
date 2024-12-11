@@ -37,6 +37,7 @@
         25%{
             left:100%;
             top: 0%;
+            bottom: 100%;
             rotate: 180deg;
         }
         50%{
