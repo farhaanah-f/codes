@@ -1,0 +1,35 @@
+@mixin createbox($height,$width,$bg){
+    height: $height;
+    width: $width;
+    background-color: $bg;
+}
+.box1{
+    @include createbox(100px,200px,red)
+}
+.box2{
+    @include createbox(100px,300px,#2d1414)
+}
+.box3{
+    @include createbox(100px,400px,#bead12)
+}
+.box4{
+    @include createbox(100px,500px,#c95d27)
+}
+.box5{
+    @include createbox(100px,600px,#9ce1b1)
+}
+.box6{
+    @include createbox(100px,700px,#364995)
+}
+.box7{
+    @include createbox(100px,800px,#9539ac)
+}
+.box8{
+    @include createbox(100px,900px,#77385c)
+}
+.box9{
+    @include createbox(100px,1000px,pink,)
+}
+.box10{
+    @include createbox(100px,1100px,purple)
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@mixin createBox($bor-rad:10){
+    border-radius: $bor-rad;
+}
+%boxFunc{
+    display: inline-block;
+
+
+}
+
+
+$boxsum:10px;
+@for $box from 1 to 101{
+   .box-#{$box}{
+    height: $box*$boxsum;
+    width: $box*$boxsum;
+    margin: 10px;
+    background-color: rgb($box*3, $box * 2, 153);
+    @extend %boxFunc;
+    @include createBox(20px);
+}
+}
+
+
+

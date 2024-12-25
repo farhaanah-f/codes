@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+}
+
+.info {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: blue;
+}/*# sourceMappingURL=homepage.css.map */

@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box2-, .box1-400, .box1-300, .box1-200, .box1-100 {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.box1-100 {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: red;
+}
+
+.box1-200 {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  background-color: yellow;
+}
+
+.box1-300 {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  background-color: green;
+}
+
+.box1-400 {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,30 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+%boxFunc{
+ font-size: 20px;
+ padding: 10px;
+}
+@mixin createBox($size,$bg-color){
+    .box1-#{$size}{
+        @extend %boxFunc;
+       height: #{$size}px;
+       width: #{$size}px;
+       margin: 10px;
+       background-color:$bg-color;
+  }
+  }
+
+  @include createBox(100,red);
+  @include createBox(200,yellow);
+  @include createBox(300,green);
+  @include createBox(400,blue);
+
+ .box2-{
+    @extend %boxFunc;
+ }
+
+  
+  

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    background:linear-gradient(90deg, rgb(231, 139, 231), rgb(123, 26, 123));
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+.list{
+    list-style: none;
+}
+li{
+display: inline;
+margin: 10px;
+padding: 10px;
+&:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px white;
+}
+}
+.btn{
+font-size: xx-large;
+display: none;
+}
+@media screen and (max-width:1042px){
+    .box{
+        padding: 5px 60px;
+    }
+}
+@media screen and (max-width:850px) {
+    .box{
+        .list{
+            gap: 20px;
+        }
+    }
+    
+}
+@media screen and (max-width:750px) {
+    .box{
+       .list{
+            display: none;
+       }
+       .btn{
+            display: flex;
+       }
+        }
+    }
+    
+
+
+
