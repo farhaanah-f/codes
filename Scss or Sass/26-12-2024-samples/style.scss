@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+%boxFunc{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    color: white;
+}
+@mixin createbox($x,$y,$z){
+    background-color: rgb($x, $y, $z);
+}
+@for $col from 0 to 51{
+    .bg-col-#{$col}{
+    @include createbox(0,$col/2,$col*2);
+}
+.box-#{$col}{
+    @extend %boxFunc;
+} 
+}   

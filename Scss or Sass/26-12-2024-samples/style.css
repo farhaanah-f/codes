@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box-50, .box-49, .box-48, .box-47, .box-46, .box-45, .box-44, .box-43, .box-42, .box-41, .box-40, .box-39, .box-38, .box-37, .box-36, .box-35, .box-34, .box-33, .box-32, .box-31, .box-30, .box-29, .box-28, .box-27, .box-26, .box-25, .box-24, .box-23, .box-22, .box-21, .box-20, .box-19, .box-18, .box-17, .box-16, .box-15, .box-14, .box-13, .box-12, .box-11, .box-10, .box-9, .box-8, .box-7, .box-6, .box-5, .box-4, .box-3, .box-2, .box-1, .box-0 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  color: white;
+}
+
+.bg-col-0 {
+  background-color: rgb(0, 0, 0);
+}
+
+.bg-col-1 {
+  background-color: rgb(0, 1, 2);
+}
+
+.bg-col-2 {
+  background-color: rgb(0, 1, 4);
+}
+
+.bg-col-3 {
+  background-color: rgb(0, 2, 6);
+}
+
+.bg-col-4 {
+  background-color: rgb(0, 2, 8);
+}
+
+.bg-col-5 {
+  background-color: rgb(0, 3, 10);
+}
+
+.bg-col-6 {
+  background-color: rgb(0, 3, 12);
+}
+
+.bg-col-7 {
+  background-color: rgb(0, 4, 14);
+}
+
+.bg-col-8 {
+  background-color: rgb(0, 4, 16);
+}
+
+.bg-col-9 {
+  background-color: rgb(0, 5, 18);
+}
+
+.bg-col-10 {
+  background-color: rgb(0, 5, 20);
+}
+
+.bg-col-11 {
+  background-color: rgb(0, 6, 22);
+}
+
+.bg-col-12 {
+  background-color: rgb(0, 6, 24);
+}
+
+.bg-col-13 {
+  background-color: rgb(0, 7, 26);
+}
+
+.bg-col-14 {
+  background-color: rgb(0, 7, 28);
+}
+
+.bg-col-15 {
+  background-color: rgb(0, 8, 30);
+}
+
+.bg-col-16 {
+  background-color: rgb(0, 8, 32);
+}
+
+.bg-col-17 {
+  background-color: rgb(0, 9, 34);
+}
+
+.bg-col-18 {
+  background-color: rgb(0, 9, 36);
+}
+
+.bg-col-19 {
+  background-color: rgb(0, 10, 38);
+}
+
+.bg-col-20 {
+  background-color: rgb(0, 10, 40);
+}
+
+.bg-col-21 {
+  background-color: rgb(0, 11, 42);
+}
+
+.bg-col-22 {
+  background-color: rgb(0, 11, 44);
+}
+
+.bg-col-23 {
+  background-color: rgb(0, 12, 46);
+}
+
+.bg-col-24 {
+  background-color: rgb(0, 12, 48);
+}
+
+.bg-col-25 {
+  background-color: rgb(0, 13, 50);
+}
+
+.bg-col-26 {
+  background-color: rgb(0, 13, 52);
+}
+
+.bg-col-27 {
+  background-color: rgb(0, 14, 54);
+}
+
+.bg-col-28 {
+  background-color: rgb(0, 14, 56);
+}
+
+.bg-col-29 {
+  background-color: rgb(0, 15, 58);
+}
+
+.bg-col-30 {
+  background-color: rgb(0, 15, 60);
+}
+
+.bg-col-31 {
+  background-color: rgb(0, 16, 62);
+}
+
+.bg-col-32 {
+  background-color: rgb(0, 16, 64);
+}
+
+.bg-col-33 {
+  background-color: rgb(0, 17, 66);
+}
+
+.bg-col-34 {
+  background-color: rgb(0, 17, 68);
+}
+
+.bg-col-35 {
+  background-color: rgb(0, 18, 70);
+}
+
+.bg-col-36 {
+  background-color: rgb(0, 18, 72);
+}
+
+.bg-col-37 {
+  background-color: rgb(0, 19, 74);
+}
+
+.bg-col-38 {
+  background-color: rgb(0, 19, 76);
+}
+
+.bg-col-39 {
+  background-color: rgb(0, 20, 78);
+}
+
+.bg-col-40 {
+  background-color: rgb(0, 20, 80);
+}
+
+.bg-col-41 {
+  background-color: rgb(0, 21, 82);
+}
+
+.bg-col-42 {
+  background-color: rgb(0, 21, 84);
+}
+
+.bg-col-43 {
+  background-color: rgb(0, 22, 86);
+}
+
+.bg-col-44 {
+  background-color: rgb(0, 22, 88);
+}
+
+.bg-col-45 {
+  background-color: rgb(0, 23, 90);
+}
+
+.bg-col-46 {
+  background-color: rgb(0, 23, 92);
+}
+
+.bg-col-47 {
+  background-color: rgb(0, 24, 94);
+}
+
+.bg-col-48 {
+  background-color: rgb(0, 24, 96);
+}
+
+.bg-col-49 {
+  background-color: rgb(0, 25, 98);
+}
+
+.bg-col-50 {
+  background-color: rgb(0, 25, 100);
+}/*# sourceMappingURL=style.css.map */

@@ -8,15 +8,13 @@
 }
 %boxFunc{
     display: inline-block;
-
-
 }
 
 
 $boxsum:10px;
 @for $box from 1 to 101{
    .box-#{$box}{
-    height: $box*$boxsum;
+    height: $box*$boxsum; 
     width: $box*$boxsum;
     margin: 10px;
     background-color: rgb($box*3, $box * 2, 153);

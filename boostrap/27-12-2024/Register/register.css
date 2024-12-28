@@ -1,0 +1,23 @@
+.bckgrd-img{
+    height: 100vh;
+    background-image: url(https://wallpapers.com/images/featured/nvq5rncaa2blzftr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+    .layer{
+        background-color:#2626266e;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+
+}
+.boxing{
+    height: 500px;
+    width: 600px;
+    background-color: #ffffff;
+    z-index: 4;
+}
