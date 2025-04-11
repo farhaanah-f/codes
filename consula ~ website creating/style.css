@@ -1,0 +1,11 @@
+.text{
+    position: relative;
+    bottom:550px;
+    color:white;
+    z-index: 1;
+    left:200px;
+}
+.image1{
+    padding: 100px;
+    margin-top: -150px;
+}
